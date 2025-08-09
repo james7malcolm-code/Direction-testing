@@ -12,7 +12,7 @@ const options = {
   method: 'GET',
   path: '/',
   headers: {
-    'Host': 'TARGET_HOST',      // Optional: spoof Host header too
+    'Host': 'x.com',      // Optional: spoof Host header too
   },
   servername: 'x.com'           // <-- This forces SNI to be x.com
 };
