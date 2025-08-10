@@ -14,7 +14,7 @@ const options = {
   headers: {
     'Host': 'x.com',      // Optional: spoof Host header too
   },
-  servername: 'x.com'           // <-- This forces SNI to be x.com
+  servername: ''           // <-- This forces SNI to be x.com
 };
 
 const req = https.request(options, (res) => {
