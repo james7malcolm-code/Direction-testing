@@ -7,7 +7,7 @@ export default function handler(req, res) {
 const https = require('https');
 
 const options = {
-  host: 'TARGET_IP_OR_DOMAIN',  // Where you're connecting
+  host: 'x.com',  // Where you're connecting
   port: 443,
   method: 'GET',
   path: '/',
