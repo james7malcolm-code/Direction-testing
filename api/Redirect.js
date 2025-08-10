@@ -1,6 +1,6 @@
 export default function handler(req, res) {
   // Replace with the URL you want to redirect to
-  const targetUrl = "http://80.246.207.253:80";
+  const targetUrl = "http://x.com";
 
   res.redirect(302, targetUrl);
 }
