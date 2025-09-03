@@ -1,6 +1,6 @@
 export default function handler(req, res) {
   // Replace with the URL you want to redirect to
-  const targetUrl = "http://x.com";
+  const targetUrl = "https://x.com";
 
   res.redirect(302, targetUrl);
 }
